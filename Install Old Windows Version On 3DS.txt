@@ -1,0 +1,11 @@
+﻿* To install: Put the contents of the provided zip folder into /3ds/retroarch_3ds. (if there is no folder called that, create one)
+
+* It will show up in the homebrew loader with a classic Windows logo.
+* For Windows 3.1 put a WINDOWS folder into the retroarch_3ds folder
+
+* For Windows 98  put an image of the system into the retroarch_3ds folder called W98.img
+* For Windows 95 put an image of the system into the retroarch_3ds folder called W95.img
+* Once you load up Windows N3DS, go to Load Content -> Select File -> smdc:/ -> 3ds -> retroarch_3ds -> and choose which OS you want to run. ld31.bat = Windows 3.1, ld98.bat = Windows 98, ld95.bat = Windows 95
+* Once its  loaded, you may have to change settings to allow you to move the arrow keys with the d-pad, to press enter using start, etc. by doing this:
+* Open settings by pressing bottom screen, press b, go to settings, input, input user 1 binds. Change User 1 device type to Joystick (4axis/4buttons + kbd arrows) and then go back to the main screen. Save current config. You can then press the bottom screen again to resume the Windows startup.
+* With this setting, D-PAD = Arrow keys, Start = Enter, Select = Esc
